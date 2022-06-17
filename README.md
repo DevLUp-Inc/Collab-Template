@@ -4,9 +4,9 @@
 
 This template aims to provide the following:
 
-1. A simple Git workflow designed for teams
-2. Guidelines for project organization
-3. A place to consolidate project resources and documentation
+1. A simple Git workflow designed for teams.
+2. Guidelines for project organization.
+3. A place to consolidate project resources and documentation.
 
 ## Repository Setup
 
