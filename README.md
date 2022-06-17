@@ -1,14 +1,16 @@
 # Collab Template
 
+> Note: It is recommended to replace this section with a description about your project.
+
 This template aims to provide the following:
 
 1. A simple Git workflow designed for teams
 2. Guidelines for project organization
 3. A place to consolidate project resources and documentation
 
-> Note: It is recommended to replace this section with a description about your project.
-
 ## Repository Setup
+
+> Note: Remove this section when done
 
 1. First start by pressing the green 'Use this template' button as
    shown below and give your new repo a name. This will create a copy
@@ -27,8 +29,6 @@ This template aims to provide the following:
 
 4. Read through the remainder of this README.
 
-> Note: Remove this section when done
-
 ## Resources
 
 If you are ever stuck, don't hesitate a teammate! In addition, here are some important links related to the project.
@@ -39,40 +39,64 @@ If you are ever stuck, don't hesitate a teammate! In addition, here are some imp
 
 To put it simply, the overall workflow is to:
 
-1. Clone the repo
-2. Create a development branch
-3. Make and commit your changes
-4. Open a pull request
-5. Switch back to `main` branch
-6. Fetch/Pull any new changes
-7. (Optional) Delete your previous local dev branch
-8. Create a new dev branch with a new name (`dev/exanite2`, etc) // Todo Can also update branch by merging
+1. Clone the repo.
+2. Create a development branch.
+3. Make and commit your changes.
+4. Open a pull request.
+5. Switch back to `main` branch.
+6. Fetch/Pull any new changes.
+7. (Optional) Delete your previous local dev branch.
+8. Create a new dev branch with a new name (`dev/previous-name-2`, etc).
 
-After you have opened a pull request, an admin will review your changes and merge it into the project.
+After you have opened a pull request, a repository maintainer will review your changes and merge it into the project.
 
 In the case of merge conflicts or any other issue, they will also work with you to resolve the issues or suggest improvements.
 
-### Additional workflow tips
+### Additional Workflow Tips
 
 1. Try to keep your branches and pull requests small! Smaller branches tend to be more focused and easier to merge.
-2. 
 
 ## Project Organization
 
-[//]: # (Todo Recommend resources for project organization)
+> Note: You'll likely want to edit this section to better fit your project.
 
-Inside the assets folder, there will be 4 primary folders:
+I (Exanite) recommend dividing your project into four different sections:
 
-| Name                                    | Purpose                                                                                                                                                                               |
-|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Project](Assets/Project)               | Stores any project related assets that isn't code. This includes art, music, prefabs, shaders, and much more.                                                                         |
-| [Project.Source](Assets/Project.Source) | Stores any project related code. This is where programmers will work.                                                                                                                 |
-| [Prototype](Assets/Prototype)           | Contains folders related to each developer's ongoing work. Each developer will have their own folder where they can store anything that isn't ready to be included in the final game. |
-| [Plugins](Assets/Plugins)               | Stores 3rd party assets and code (unless the asset needs to be in a specific folder).                                                                                                 |
+1. Project assets
+2. Project code
+3. Third party code
+4. Prototyping
 
-Organization within the Project and Project.Source folder is up to the respective teams and developers working in it.
+Because code typically isn't meant to be directly used by designers,
+sections 1 and 2 create a separation between designers and
+programmers.
 
-There is also an additional README file in each primary folder for more information.
+Likewise, third party code typically shouldn't be modified and is thus
+placed in its own folder.
+
+Having a separate prototyping folder also creates a separation between
+production ready assets and assets that are used for testing or are in
+the middle of development.
+
+### Example
+
+With Unity, this leads to the four following folders in the Assets folder:
+
+1. Project - Stores any project related assets that isn't code. This includes art, music, prefabs, shaders, and much more.
+2. Project.Source - Stores any project related code. This is where programmers will work.
+3. Plugins - Stores 3rd party assets and code (unless the asset needs to be in a specific folder).
+4. Prototype - Contains folders related to each developer's ongoing work. Each developer will have their own folder where they can store anything that isn't ready to be included in the final game.
+
+### Additional Resources
+
+Here are additional resource for deciding on how to organize your
+project, however, note that much of this is subject to opinion and can
+differ depending on the needs of your project. However, in any case,
+being consistent is more important than being "correct", whatever that
+may be.
+
+https://github.com/justinwasilenko/Unity-Style-Guide
+https://github.com/Allar/ue5-style-guide
 
 ## Quick Github Desktop Guide
 
@@ -101,7 +125,7 @@ branch*, unless you are working directly with someone else.
 This gives you a separate environment where your code won't be
 accidentally changed or broken by others.
 
-For example, William (Exanite)'s branch would be named: `dev/exanite` or `dev/william`.
+For example, Octocat's branch would be named: `dev/octocat`.
 You can also name your branch by feature: `dev/combat` or `dev/level-generation`.
 If you are fixing a bug, you can also use the `fix` prefix: `fix/play-button-not-working`.
 
@@ -113,4 +137,4 @@ Instead of directly merging your changes back to main, we will be using pull req
 Once you have made a commit, you can create a pull request in Github Desktop by clicking "Create a pull request from your current branch".
 This will take you to the Github webpage where you can give your pull request a title and description.
 
-> Once you click "Create pull request", someone will review your code and merge it for you if there aren't any issues.
+> Once you click "Create pull request", a repository maintainer will review your code and merge it for you if there aren't any issues.
