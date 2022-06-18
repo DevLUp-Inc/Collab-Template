@@ -18,7 +18,7 @@ When onboarding new members to the project, you can point them towards
 the respective sections and answer any additional questions they have.
 Note that a member can play multiple roles.
 
-[![https://img.shields.io/badge/-Get%20Started-brightgreen]()](#for-repository-maintainers)
+[![](https://img.shields.io/badge/-Get%20Started-informational?style=flat&logoColor=white&color=3cad0f)](#for-repository-maintainers)
 
 ## Resources
 
