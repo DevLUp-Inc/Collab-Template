@@ -25,6 +25,8 @@ the middle of development. This prevents unfinished assets from
 accidentally included into production builds and situations such as
 using an asset and having it suddenly change or be deleted.
 
+![Image of one of Exanite's Unity assets folders](/docs/collab-template/project-organization_exanite.png)
+
 ### Example
 
 > You can copy-paste this into the Project Organization section of the README
