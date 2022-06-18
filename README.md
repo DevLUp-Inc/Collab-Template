@@ -20,7 +20,20 @@ Note that a member can play multiple roles.
 
 [![](https://img.shields.io/badge/Repository%20Maintainers-Get%20Started-informational?style=flat&logoColor=white&color=3cad0f)](/docs/collab-template/repository-maintainers.md)
 
+## Getting Started
+
+> Note: You'll want to edit this section to better fit your project.
+
+Read through this README and look through the documents linked by the
+[For Contributors](#for-contributors) section.
+
+This project uses:
+
+1. Program v1.2.3 - Download link here!
+
 ## Resources
+
+> Note: You'll want to edit this section to better fit your project.
 
 If you are ever stuck, don't hesitate to ask a teammate! In addition, here are some important links related to the project:
 
@@ -36,7 +49,7 @@ If you are ever stuck, don't hesitate to ask a teammate! In addition, here are s
 
 > Note: You'll want to edit this section to better fit your project.
 
-### Resources
+### Project Organization Resources
 
 Here are some resources for deciding on how to organize your
 project, however, note that much of this is subject to opinion and can

@@ -23,12 +23,23 @@ sure that it stays in a workable state.
 
    ![Image of Gitignore.io](/docs/collab-template/images/gitignore-io.png)
 
-4. In the repository [README](/README.md), fill
-   the [Project Organization](/README.md#project-organization) section
-   with how your project is organized. Resources are provided if you
-   don't already have a plan.
+4. Fill out the
+   [Resources](/README.md#getting-started)
+   section in the README with the programs that the project uses
+   and how to get started with using them.
 
-5. Consider going into the repository settings and setting your pull request settings to be something similar to this:
+6. Fill out the
+   [Resources](/README.md#resources)
+   section in the README with resources such as your project
+   documentation, design documents, task tracker, project chat,
+   style guide, etc.
+
+7. Fill out the
+   [Project Organization](/README.md#project-organization)
+   section in the README with how your project is organized. Resources
+   are provided if you don't already have a plan.
+
+8. Consider going into the repository settings and setting your pull request settings to be something similar to this:
 
    ![Image of Github repository pull request settings](/docs/collab-template/images/github_pull-request-settings.png)
 
@@ -61,8 +72,8 @@ sure that it stays in a workable state.
    > contributors forgetting to update their branch or to create a new
    > branch after the pull request has been submitted.
 
-6. (Highly recommended) Read through the
+9. (Highly recommended) Read through the
    repository [README](/README.md) and the rest of the role specific
    documents.
 
-7. (Optional) Add a license to the project (if open source).
+10. (Optional) Add a license to the project (if open source).
