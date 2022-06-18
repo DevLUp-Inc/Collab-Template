@@ -8,6 +8,7 @@ sure that it stays in a workable state.
 1. First start by pressing the green 'Use this template' button as
    shown below and give your new repo a name. This will create a copy
    of this repo.
+
    ![Image of 'Use this template' button](/docs/collab-template/github_use-this-template.png)
 
 2. Add your project either directly into the root folder of the repo
@@ -28,6 +29,7 @@ sure that it stays in a workable state.
    don't already have a plan.
 
 5. Consider going into the repository settings and setting your pull request settings to be something similar to this:
+
    ![Image of Github repository pull request settings](/docs/collab-template/github_pull-request-settings.png)
 
    > Merge commits are the same as the typical merge done by Git.
@@ -59,8 +61,8 @@ sure that it stays in a workable state.
    > contributors forgetting to update their branch or to create a new
    > branch after the pull request has been submitted.
 
-7. (Highly recommended) Read through the
+6. (Highly recommended) Read through the
    repository [README](/README.md) and the rest of the role specific
    documents.
 
-8. (Optional) Add a license to the project (if open source).
+7. (Optional) Add a license to the project (if open source).
