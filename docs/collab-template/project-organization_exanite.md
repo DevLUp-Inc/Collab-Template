@@ -31,7 +31,7 @@ using an asset and having it suddenly change or be deleted.
 
 > You can copy-paste this into the Project Organization section of the README
 
-This project is organized into the following sections:
+This project is organized into the following folders:
 
 1. Project - Stores any project related assets that isn't code. This includes art, music, prefabs, shaders, and much more.
 2. Project.Source - Stores any project related code. This is where programmers will work.

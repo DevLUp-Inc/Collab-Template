@@ -2,9 +2,9 @@
 
 ## Workflow Overview
 
-The following is a simple Git workflow meant for larger teams:
-
-[//]: # (Todo)
+The following is a simple Git workflow meant to reduce the likelyhood
+of merge conflicts. Smaller teams can relax the guidelines while
+larger teams can make the guidelines even more strict.
 
 1. Clone the repo.
 2. Create a development branch.
@@ -15,15 +15,20 @@ The following is a simple Git workflow meant for larger teams:
 7. (Optional) Delete your previous local dev branch.
 8. Create a new dev branch with a new name (`dev/previous-name-2`, etc).
 
-After you have opened a pull request, a repository maintainer will review your changes and merge it into the project.
+After you have opened a pull request, a code reviewer will review your
+changes and merge it into the project. At this point, the code
+reviewer **owns** your branch. Any changes that you make on that
+branch must go through them first.
 
-In the case of merge conflicts or any other issue, they will also work with you to resolve the issues or suggest improvements.
+In the case of merge conflicts or any other issue, they will also work
+with you to resolve the issues or suggest improvements.
 
 ### Additional Workflow Tips
 
-1. Try to keep your branches and pull requests small! Smaller branches tend to be more focused and easier to merge.
-2. Always communicate with your team about what features and files you will be working on.
-3. Don't let your branch get outdated. Either update your branch by merging `main` into your branch or create a pull request.
+1. Always communicate with your team about what features and files you will be working on.
+2. Do not work on a file that a teammate is working on! This will lead to merge conflicts.
+3. Try to keep your branches and pull requests small! Smaller branches tend to be more focused and easier to merge.
+4. Don't let your branch get outdated. Either update your branch by merging `main` into your branch or create a pull request.
 
 ## Quick Github Desktop Guide
 
@@ -64,4 +69,4 @@ Instead of directly merging your changes back to main, we will be using pull req
 Once you have made a commit, you can create a pull request in Github Desktop by clicking "Create a pull request from your current branch".
 This will take you to the Github webpage where you can give your pull request a title and description.
 
-> Once you click "Create pull request", a repository maintainer will review your code and merge it for you if there aren't any issues.
+> Once you click "Create pull request", a code reviewer will review your code and merge it for you if there aren't any issues.
