@@ -18,7 +18,7 @@ should never make it to the `main` branch.
    
    Github can automatically update for you if there are no merge conflicts. Otherwise, use your preferred Git client to merge.
 
-   ![Image of Github pull request update branch button](/docs/collab-template/github_pull-request-update-branch.png)
+   ![Image of Github pull request update branch button](/docs/collab-template/images/github_pull-request-update-branch.png)
 
 4. Take a look at files that have been changed. Take a look at the [What to look for](#what-to-look-for) section.
 
@@ -86,7 +86,7 @@ However, here are a few tips that may help merging easier:
 - Unity should serialize assets as text by default, but has
   an [option to enable it if it is not](https://docs.unity3d.com/Manual/class-EditorManager.html).
 
-  ![Image of Unity Force Text Serialization option](/docs/collab-template/unity_force-text-serialization.png)
+  ![Image of Unity Force Text Serialization option](/docs/collab-template/images/unity_force-text-serialization.png)
 - For asset files, Unity has
   the [UnityYAMLMerge tool](https://docs.unity3d.com/Manual/SmartMerge.html)
   that can often automatically merge scene and other complex assets

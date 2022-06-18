@@ -39,7 +39,7 @@ with you to resolve the issues or suggest improvements.
 
 This guide will use Github Desktop, but any Git client can be used (e.g., Git command line, Sourcetree, etc).
 
-![Image of Github Desktop interface](/docs/collab-template/github-desktop.png)
+![Image of Github Desktop interface](/docs/collab-template/images/github-desktop.png)
 
 ### 💾 Committing
 A commit is a group of related changes: `"Add main menu button"` or `"Fix enemy getting stuck on wall"`.

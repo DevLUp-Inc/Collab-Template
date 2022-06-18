@@ -9,7 +9,7 @@ sure that it stays in a workable state.
    shown below and give your new repo a name. This will create a copy
    of this repo.
 
-   ![Image of 'Use this template' button](/docs/collab-template/github_use-this-template.png)
+   ![Image of 'Use this template' button](/docs/collab-template/images/github_use-this-template.png)
 
 2. Add your project either directly into the root folder of the repo
    OR as a subfolder.
@@ -21,7 +21,7 @@ sure that it stays in a workable state.
    This website can help you generate a suitable `.gitignore` for your
    project: https://www.toptal.com/developers/gitignore
 
-   ![Image of Gitignore.io](/docs/collab-template/gitignore-io.png)
+   ![Image of Gitignore.io](/docs/collab-template/images/gitignore-io.png)
 
 4. In the repository [README](/README.md), fill
    the [Project Organization](/README.md#project-organization) section
@@ -30,7 +30,7 @@ sure that it stays in a workable state.
 
 5. Consider going into the repository settings and setting your pull request settings to be something similar to this:
 
-   ![Image of Github repository pull request settings](/docs/collab-template/github_pull-request-settings.png)
+   ![Image of Github repository pull request settings](/docs/collab-template/images/github_pull-request-settings.png)
 
    > Merge commits are the same as the typical merge done by Git.
    > They have the benefit of keeping branch history, but can become
@@ -53,7 +53,7 @@ sure that it stays in a workable state.
    > repo. This avoids situations where the code works before merging,
    > but does not afterwards.
    
-   ![Image of Github pull request update branch button](/docs/collab-template/github_pull-request-update-branch.png)
+   ![Image of Github pull request update branch button](/docs/collab-template/images/github_pull-request-update-branch.png)
 
    > 'Automatically delete head branches' is disabled by default, but
    > enabling it keeps the Github repository clean and does not delete
