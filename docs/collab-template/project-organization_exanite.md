@@ -36,4 +36,4 @@ This project is organized into the following sections:
 3. Plugins - Stores 3rd party assets and code (unless the asset needs to be in a specific folder).
 4. Prototype - Contains folders related to each developer's ongoing work. Each developer will have their own folder where they can store anything that isn't ready to be included in the final game.
 
-[More Information](https://github.com/UF-GDA/CollabTemplate/docs/collab-template/project-organization_exanite.md)
+[More Information](https://github.com/UF-GDA/CollabTemplate/blob/main/docs/collab-template/project-organization_exanite.md)
