@@ -1,7 +1,7 @@
 # Exanite's Project Organization
 
 > Since I usually use Unity, this will be written based off of how I
-> typically organize my projects.
+> typically organize my projects in Unity.
 
 I recommend dividing your project into four different sections:
 
