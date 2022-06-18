@@ -18,7 +18,7 @@ should never make it to the `main` branch.
    [Github's code comment system](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request).
 6. Submit your review when done.
 7. If your project has automated code testing and builds, make sure those pass.
-8. Finally, merge when the pull request has gained enough approvals (smaller projects can have just one code reviewer).
+8. Finally, merge when the pull request has no remaining issues and has gained enough approvals (smaller projects can have just one code reviewer).
 
 ## What To Look For
 
