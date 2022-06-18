@@ -1,5 +1,30 @@
 # Contributors
 
+## Workflow Overview
+
+The following is a simple Git workflow meant for larger teams:
+
+[//]: # (Todo)
+
+1. Clone the repo.
+2. Create a development branch.
+3. Make and commit your changes.
+4. Open a pull request.
+5. Switch back to `main` branch.
+6. Fetch/Pull any new changes.
+7. (Optional) Delete your previous local dev branch.
+8. Create a new dev branch with a new name (`dev/previous-name-2`, etc).
+
+After you have opened a pull request, a repository maintainer will review your changes and merge it into the project.
+
+In the case of merge conflicts or any other issue, they will also work with you to resolve the issues or suggest improvements.
+
+### Additional Workflow Tips
+
+1. Try to keep your branches and pull requests small! Smaller branches tend to be more focused and easier to merge.
+2. Always communicate with your team about what features and files you will be working on.
+3. Don't let your branch get outdated. Either update your branch by merging `main` into your branch or create a pull request.
+
 ## Quick Github Desktop Guide
 
 This guide will use Github Desktop, but any Git client can be used (e.g., Git command line, Sourcetree, etc).
