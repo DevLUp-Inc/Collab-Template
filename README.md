@@ -24,7 +24,7 @@ If you are ever stuck, don't hesitate to ask a teammate! In addition, here are s
 
 1. [Placeholder]() - Put your own links here with a short description of what they are!
 
-Role based resources:
+### Role-based Resources
 
 1. [Contributors](#for-contributors) work on code and other assets within this repo.
 2. [Code Reviewers](#for-code-reviewers) review pull requests and merge them.
