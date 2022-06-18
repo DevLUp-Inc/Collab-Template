@@ -12,7 +12,7 @@ The information is broken up into different roles:
 
 1. [Contributors](#for-contributors) work on code and other assets within this repo.
 2. [Code Reviewers](#for-code-reviewers) review pull requests and merge them.
-3. [Repository Maintainers](#for-repository-maintainers) set up the repo and make project organization decisions.
+3. [Repository Maintainers](#for-repository-maintainers) set up the repo and establish standards for project organization.
 
 When onboarding new members to the project, you can point them towards
 the respective sections and answer any additional questions they have.
