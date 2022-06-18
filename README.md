@@ -54,18 +54,18 @@ External:
 
 ## For Contributors
 
-Read through this README file and also the [contributors.md](/docs/collab-template/contributors.md) file.
+Read through this README document and also the [contributors.md](/docs/collab-template/contributors.md) document.
 
 Optionally, also read through the sections for the other roles.
 
 ## For Code Reviewers
 
-Read through this README file and also the [code-reviewers.md](/docs/collab-template/code-reviewers.md) file.
+Read through this README document and also the [code-reviewers.md](/docs/collab-template/code-reviewers.md) document.
 
 Optionally, also read through the sections for the other roles.
 
 ## For Repository Maintainers
 
-Read through this README file and also the [repository-maintainers.md](/docs/collab-template/repository-maintainers.md) file.
+Read through this README document and also the [repository-maintainers.md](/docs/collab-template/repository-maintainers.md) document.
 
 Optionally, also read through the sections for the other roles.
