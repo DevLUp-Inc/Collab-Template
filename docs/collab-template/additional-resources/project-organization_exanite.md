@@ -38,4 +38,4 @@ This project is organized into the following folders:
 3. Plugins - Stores 3rd party assets and code (unless the asset needs to be in a specific folder).
 4. Prototype - Contains folders related to each developer's ongoing work. Each developer will have their own folder where they can store anything that isn't ready to be included in the final game.
 
-[More Information](/docs/collab-template/project-organization_exanite.md)
+[More Information](/docs/collab-template/additional-resources/project-organization_exanite.md)
