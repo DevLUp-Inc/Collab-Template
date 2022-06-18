@@ -11,13 +11,24 @@ should never make it to the `main` branch.
 ## Workflow Overview
 
 1. Read through the pull request.
+
 2. Check out the pull request's branch.
+
 3. Update the branch by merging from `main`. This can cause merge conflicts so be ready to resolve those.
+   
+   Github can automatically update for you if there are no merge conflicts. Otherwise, use your preferred Git client to merge.
+
+   ![Image of Github pull request update branch button](/docs/collab-template/github_pull-request-update-branch.png)
+
 4. Take a look at files that have been changed. Take a look at the [What to look for](#what-to-look-for) section.
+
 5. Provide feedback. This can be done through
    [Github's code comment system](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request).
+
 6. Submit your review when done.
+
 7. If your project has automated code testing and builds, make sure those pass.
+
 8. Finally, merge when the pull request has no remaining issues and has gained enough approvals (smaller projects can have just one code reviewer).
 
 ## What To Look For
@@ -60,7 +71,7 @@ However, here are a few tips that may help merging easier:
 2. Always check the final result before pushing. If it doesn't look
    right, try merging again.
 3. Talk to your teammates and figure out what has been changed.
-4. Rebasing can be easier than a normal merge since rebasing replays a
+4. Rebasing can be easier than a normal merge since rebasing handles a
    single commit at a time. This allows you to resolve multiple
    smaller conflicts rather than all of them at once.
 

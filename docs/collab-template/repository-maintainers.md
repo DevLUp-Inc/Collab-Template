@@ -27,8 +27,40 @@ sure that it stays in a workable state.
    with how your project is organized. Resources are provided if you
    don't already have a plan.
 
-5. (Highly recommended) Read through the
+5. Consider going into the repository settings and setting your pull request settings to be something similar to this:
+   ![Image of Github repository pull request settings](/docs/collab-template/github_pull-request-settings.png)
+
+   > Merge commits are the same as the typical merge done by Git.
+   > They have the benefit of keeping branch history, but can become
+   > unwieldy when there are a high number of branches
+   >
+   > Squash merging is when the entire pull request branch is combined
+   > into a single commit.
+   > This has the benefit of making the `main` branch's commit history
+   > linear and very concise.
+   >
+   > Rebase merging is when each commit is recreated on top of the
+   > `main` branch history, one at a time.
+   > Similar to squash merging, this keeps the `main` branch history
+   > linear. However, instead of each pull request generating one
+   > commit, all of the pull request's commits are added to main.
+   
+   > 'Always suggest updating pull request branches' is disabled by
+   > default, but having an updated branch helps code reviewers and
+   > contributors test their changes on the latest version of the
+   > repo. This avoids situations where the code works before merging,
+   > but does not afterwards.
+   
+   ![Image of Github pull request update branch button](/docs/collab-template/github_pull-request-update-branch.png)
+
+   > 'Automatically delete head branches' is disabled by default, but
+   > enabling it keeps the Github repository clean and does not delete
+   > the contributors' local branches. However, it can lead to
+   > contributors forgetting to update their branch or to create a new
+   > branch after the pull request has been submitted.
+
+7. (Highly recommended) Read through the
    repository [README](/README.md) and the rest of the role specific
    documents.
 
-6. (Optional) Add a license to the project (if open source).
+8. (Optional) Add a license to the project (if open source).
