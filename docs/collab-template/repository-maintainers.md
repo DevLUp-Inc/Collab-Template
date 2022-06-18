@@ -5,7 +5,7 @@
 1. First start by pressing the green 'Use this template' button as
    shown below and give your new repo a name. This will create a copy
    of this repo under your control.
-   ![Image of 'Use this template' button](github_use-this-template.png)
+   ![Image of 'Use this template' button](/docs/collab-template/github_use-this-template.png)
 
 2. Add your project either directly into the root folder of the repo OR as a subfolder.
 
@@ -15,7 +15,7 @@
 
    This website can help you generate a suitable `.gitignore` for your project: https://www.toptal.com/developers/gitignore
 
-   ![Image of Gitignore.io](gitignore-io.png)
+   ![Image of Gitignore.io](/docs/collab-template/gitignore-io.png)
 
 4. Read through the remainder of this README.
 

@@ -29,7 +29,7 @@ In the case of merge conflicts or any other issue, they will also work with you 
 
 This guide will use Github Desktop, but any Git client can be used (e.g., Git command line, Sourcetree, etc).
 
-![Image of Github Desktop interface](github-desktop.png)
+![Image of Github Desktop interface](/docs/collab-template/github-desktop.png)
 
 ### 💾 Committing
 A commit is a group of related changes: `"Add main menu button"` or `"Fix enemy getting stuck on wall"`.
