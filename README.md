@@ -58,7 +58,7 @@ being consistent is more important than being "correct".
 
 UF GDA:
 
-1. [Exanite's Unity Project Organization](/docs/collab-template/project-organization_exanite.md)
+1. [Exanite's Unity Project Organization](/docs/collab-template/additional-resources/project-organization_exanite.md)
 
 External:
 
