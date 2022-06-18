@@ -74,6 +74,8 @@ However, here are a few tips that may help merging easier:
 
 - Unity should serialize assets as text by default, but has
   an [option to enable it if it is not](https://docs.unity3d.com/Manual/class-EditorManager.html).
+
+  ![Image of Unity Force Text Serialization option](/docs/collab-template/unity_force-text-serialization.png)
 - For asset files, Unity has
   the [UnityYAMLMerge tool](https://docs.unity3d.com/Manual/SmartMerge.html)
   that can often automatically merge scene and other complex assets
