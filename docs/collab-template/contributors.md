@@ -29,6 +29,7 @@ with you to resolve the issues or suggest improvements.
 2. Do not work on a file that a teammate is working on! This will lead to merge conflicts.
 3. Try to keep your branches and pull requests small! Smaller branches tend to be more focused and easier to merge.
 4. Don't let your branch get outdated. Either update your branch by merging `main` into your branch or create a pull request.
+5. Make small commits, even the occassional single commit. These are called atomic commits and focus on making a commit per completed task.
 
 ## Quick Github Desktop Guide
 

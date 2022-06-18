@@ -13,8 +13,9 @@ should never make it to the `main` branch.
 1. Read through the pull request.
 2. Check out the pull request's branch.
 3. Update the branch by merging from `main`. This can cause merge conflicts so be ready to resolve those.
-4. Take a look at files that have been changed. Take a look at the [What to look for](#what-to-look-for) section
-5. Add any comments if necessary.
+4. Take a look at files that have been changed. Take a look at the [What to look for](#what-to-look-for) section.
+5. Provide feedback. This can be done through
+   [Github's code comment system](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request).
 6. Submit your review when done.
 7. If your project has automated code testing and builds, make sure those pass.
 8. Finally, merge when the pull request has gained enough approvals (smaller projects can have just one code reviewer).
@@ -50,3 +51,36 @@ In addition to this, Google provides a great explanation to how code review shou
 > - The code conforms to our style guides.
 
 ## Handling Merges
+
+There are many, many ways of handling merges from doing it in a text
+editor and having a full GUI application designed for merging.
+However, here are a few tips that may help merging easier:
+
+1. You can restart merges by Git resetting the repo.
+2. Always check the final result before pushing. If it doesn't look
+   right, try merging again.
+3. Talk to your teammates and figure out what has been changed.
+4. Rebasing can be easier than a normal merge since rebasing replays a
+   single commit at a time. This allows you to resolve multiple
+   smaller conflicts rather than all of them at once.
+
+> Note: Binary files cannot be merged by Git.
+> 
+> In these cases, check if the program you are using has tools for
+> aiding merges or if it has a way to store the file in text form
+> instead.
+
+### Unity
+
+- Unity should serialize assets as text by default, but has
+  an [option to enable it if it is not](https://docs.unity3d.com/Manual/class-EditorManager.html).
+- For asset files, Unity has
+  the [UnityYAMLMerge tool](https://docs.unity3d.com/Manual/SmartMerge.html)
+  that can often automatically merge scene and other complex assets
+  such as prefabs for you.
+
+### Unreal
+
+- Unreal can help
+  you [diff blueprints](https://www.unrealengine.com/en-US/blog/diffing-blueprints)
+  (but cannot directly merge them for you).
