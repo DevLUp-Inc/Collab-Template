@@ -24,7 +24,7 @@ Note that a member can play multiple roles.
 
 > Note: You'll want to edit this section to better fit your project.
 
-Read through this README and read the [contributors.md]() document.
+Read through this README and read the [contributors.md](/docs/collab-template/contributors.md) document.
 
 This project uses:
 
