@@ -10,9 +10,9 @@ This template aims to provide the following:
 
 The information is broken up into different roles:
 
-1. [Contributors](#for-contributors) work on code and other assets within this repo.
-2. [Code Reviewers](#for-code-reviewers) review pull requests and merge them.
-3. [Repository Maintainers](#for-repository-maintainers) set up the repo and establish standards for project organization.
+1. [Contributors](/docs/collab-template/contributors.md) work on code and other assets within this repo.
+2. [Code Reviewers](/docs/collab-template/code-reviewers.md) review pull requests and merge them.
+3. [Repository Maintainers](/docs/collab-template/repository-maintainers.md) set up the repo and establish standards for project organization.
 
 When onboarding new members to the project, you can point them towards
 the respective sections and answer any additional questions they have.
@@ -38,12 +38,6 @@ If you are ever stuck, don't hesitate to ask a teammate! In addition, here are s
 
 1. [Placeholder]() - Put your own links here with a short description of what they are!
 
-### Role-based Resources
-
-1. [Contributors](/docs/collab-template/contributors.md) work on code and other assets within this repo.
-2. [Code Reviewers](/docs/collab-template/code-reviewers.md) review pull requests and merge them.
-3. [Repository Maintainers](/docs/collab-template/repository-maintainers.md) set up the repo and establish standards for project organization.
-
 ## Project Organization
 
 > Note: You'll want to edit this section to better fit your project.
@@ -55,7 +49,7 @@ project, however, note that much of this is subject to opinion and can
 differ depending on the needs of your project. However, in any case,
 being consistent is more important than being "correct".
 
-UF GDA:
+DevLUp:
 
 1. [Exanite's Unity Project Organization](/docs/collab-template/additional-resources/project-organization_exanite.md)
 
