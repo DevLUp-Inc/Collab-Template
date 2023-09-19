@@ -62,9 +62,11 @@ branch*, unless you are working directly with someone else.
 This gives you a separate environment where your code won't be
 accidentally changed or broken by others.
 
-For example, Octocat's branch would be named: `dev/octocat`.
-You can also name your branch by feature: `dev/combat` or `dev/level-generation`.
-If you are fixing a bug, you can also use the `fix` prefix: `fix/play-button-not-working`.
+#### 🌿 Naming branches
+
+Branch names should describe the work that is being done on that branch.
+For features, name your branches with the `dev` prefix: `dev/combat` or `dev/level-generation`.
+For bugs, use the `fix` prefix: `fix/play-button-not-working`.
 
 To create a branch, click on the "Current branch" button and type in your desired branch name.
 
