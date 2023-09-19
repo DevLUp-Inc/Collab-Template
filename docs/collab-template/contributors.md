@@ -17,7 +17,7 @@ larger teams can make the guidelines even more strict.
 5. Switch back to `main` branch.
 6. Fetch/Pull any new changes.
 7. (Optional) Delete your previous local dev branch.
-8. Create a new dev branch with a new name (`dev/previous-name-2`, etc).
+8. Create a new dev branch with a new name (`dev/new-feature`, etc).
 
 After you have opened a pull request, a code reviewer will review your
 changes and merge it into the project. At this point, the code
